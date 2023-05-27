@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" type="module" defer></script>
+  
+  <title>Bora codar - 21</title>
+</head>
+<body>
+  <div class="container">
+    <header class="card-header">
+      <div class="titles">
+        <h1 class="heading">Seu carrinho tem</h1>
+        <span id="quantityItemsOnHeader" class="number-lg">5 items</span>
+      </div>
+
+      <button id="close-btn">
+        <i class="ph ph-x"></i>
+      </button>
+    </header>
+
+    <main class="products">
+      <div class="product-card">
+        <img src="../assets/product-image-monitor.jpg" alt="monitor de tela curva da Samsung">
+        <div class="product">
+          <div class="content">
+            <p class="paragraph">Monitor Gamer Curvo 49 DQHD, 240Hz, 1ms, HDMI e</p>
+          </div>
+
+          <div class="product-bottom">
+            <p class=" product-value number-sm">8599.90</p>
+          
+            <div class="quantity-buttons">
+              <button class="minus-btn"><i class="ph ph-minus"></i></button>
+              <p class="text-quantity paragraph">1</p>
+              <button class="plus-btn"><i class="ph ph-plus"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="../assets/product-image-cadeira.jpg" alt="teclado gamer">
+        <div class="product">
+          <div class="content">
+            <p class="paragraph">Cadeira Gamer  RGB - Preta com Iluminação (Led)</p>
+          </div>
+
+          <div class="product-bottom">
+            <p class=" product-value number-sm">959.90</p>
+          
+            <div class="quantity-buttons">
+              <button class="minus-btn"><i class="ph ph-minus"></i></button>
+              <p class="text-quantity paragraph">1</p>
+              <button class="plus-btn"><i class="ph ph-plus"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="../assets/product-image-teclado.jpg" alt="monitor de tela curva da Samsung">
+        <div class="product">
+          <div class="content">
+            <p class="paragraph">Teclado Gamer Mecânico Low Profile RGB AW510K 580</p>
+          </div>
+
+          <div class="product-bottom">
+            <p class=" product-value number-sm">1002.00</p>
+          
+            <div class="quantity-buttons">
+              <button class="minus-btn"><i class="ph ph-minus"></i></button>
+              <p class="text-quantity paragraph">1</p>
+              <button class="plus-btn"><i class="ph ph-plus"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="../assets/product-image-headset.jpg" alt="headset gamer">
+        <div class="product">
+          <div class="content">
+            <p class="paragraph">Headset Gamer RGB Preto</p>
+          </div>
+
+          <div class="product-bottom">
+            <p class=" product-value number-sm">99.90</p>
+          
+            <div class="quantity-buttons">
+              <button class="minus-btn"><i class="ph ph-minus"></i></button>
+              <p class="text-quantity paragraph">1</p>
+              <button class="plus-btn"><i class="ph ph-plus"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="../assets/product-image-patinho.jpg" alt="pato de borracha">
+        <div class="product">
+          <div class="content">
+            <p class="paragraph">Patinho De Borracha Para Banho</p>
+          </div>
+
+          <div class="product-bottom">
+            <p class=" product-value number-sm">19.90</p>
+          
+            <div class="quantity-buttons">
+              <button class="minus-btn"><i class="ph ph-minus"></i></button>
+              <p class="text-quantity paragraph">1</p>
+              <button class="plus-btn"><i class="ph ph-plus"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="total">
+        <p class="paragraph">Total:</p>
+        <p class="total-value number-lg">0</p>
+      </div>
+      <div class="coupon">
+        <button><i class="ph ph-tag"></i></button>
+        <input type="text" class="add-coupon paragraph" placeholder="Adicionar cupom"/>
+      </div>
+      <div class="finish">
+        <button id="finish-btn" class="paragraph">Finalizar compra</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</body>
+</html>
